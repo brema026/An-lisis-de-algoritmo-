@@ -1,0 +1,9 @@
+# ninja log v6
+89	1237	7482395922070588	CMakeFiles/AAlgoritmo.dir/src/BubbleSort.cpp.obj	cd46879b8eb3b828
+4	1327	7482395921221415	CMakeFiles/AAlgoritmo.dir/src/main.cpp.obj	77d271165db52db7
+173	1836	7482395922910015	CMakeFiles/AAlgoritmo.dir/src/Timer.cpp.obj	cfa64914dda7bcc1
+257	2370	7482395923754221	CMakeFiles/AAlgoritmo.dir/src/SelectionSort.cpp.obj	436688357ab6c3fb
+338	2858	7482395924555159	CMakeFiles/AAlgoritmo.dir/src/MergeSort.cpp.obj	b8971b2f671e8151
+417	3548	7482395925351504	CMakeFiles/AAlgoritmo.dir/src/SortedLinkedList.cpp.obj	31132956a6078ef9
+501	3951	7482395926188800	CMakeFiles/AAlgoritmo.dir/src/BinarySearchTree.cpp.obj	f47ef1c8977a31c4
+3955	5271	7482395960735740	AAlgoritmo.exe	605d285407b920f8

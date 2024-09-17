@@ -1,0 +1,3 @@
+C:/Users/Brene/OneDrive/Escritorio/AAlgoritmo/cmake-build-debug/CMakeFiles/AAlgoritmo.dir
+C:/Users/Brene/OneDrive/Escritorio/AAlgoritmo/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/Brene/OneDrive/Escritorio/AAlgoritmo/cmake-build-debug/CMakeFiles/rebuild_cache.dir
