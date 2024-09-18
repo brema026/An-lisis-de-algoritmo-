@@ -3,63 +3,122 @@
 #include "BubbleSort.h"
 #include "SelectionSort.h"
 #include "MergeSort.h"
-#include "Timer.h"
+#include "BenchMark.h"
 #include "BinarySearchTree.h"
 #include "SortedLinkedList.h"
 
-int main() {
-    std::vector<int> data = {64, 34, 25, 12, 22, 11, 90};
-    Timer timer;
+// Función para generar un array ordenado (mejor caso)
+std::vector<int> generarMejorCaso(int N) {
+    std::vector<int> arr(N);
+    for (int i = 0; i < N; ++i) {
+        arr[i] = i;
+    }
+    return arr;
+}
+
+// Función para generar un array invertido (peor caso)
+std::vector<int> generarPeorCaso(int N) {
+    std::vector<int> arr(N);
+    for (int i = 0; i < N; ++i) {
+        arr[i] = N - i;
+    }
+    return arr;
+}
+
+// Función para generar un array aleatorio (caso promedio)
+std::vector<int> generarCasoPromedio(int N) {
+    std::vector<int> arr(N);
+    for (int i = 0; i < N; ++i) {
+        arr[i] = rand() % 10000;
+    }
+    return arr;
+}
+
+// Función para ejecutar pruebas con diferentes algoritmos y estructuras de datos
+void ejecutarPruebas(int N) {
+    std::vector<int> mejorCaso = generarMejorCaso(N);
+    std::vector<int> peorCaso = generarPeorCaso(N);
+    std::vector<int> casoPromedio = generarCasoPromedio(N);
+
+    long long tiempoMejor, tiempoPeor, tiempoPromedio;
 
     // BubbleSort
-    std::vector<int> bubbleData = data;
-    timer.start();
-    BubbleSort::sort(bubbleData);
-    long long bubbleTime = timer.stop();
-    std::cout << "BubbleSort duration: " << bubbleTime << " ns\n";
+    tiempoMejor = medirTiempo(BubbleSort::sort, mejorCaso);
+    tiempoPeor = medirTiempo(BubbleSort::sort, peorCaso);
+    tiempoPromedio = medirTiempo(BubbleSort::sort, casoPromedio);
+
+    std::cout << "BubbleSort - N: " << N << "\n";
+    std::cout << "Mejor caso: " << tiempoMejor << " ns\n";
+    std::cout << "Peor caso: " << tiempoPeor << " ns\n";
+    std::cout << "Caso promedio: " << tiempoPromedio << " ns\n";
 
     // SelectionSort
-    std::vector<int> selectionData = data;
-    timer.start();
-    SelectionSort::sort(selectionData);
-    long long selectionTime = timer.stop();
-    std::cout << "SelectionSort duration: " << selectionTime << " ns\n";
+    tiempoMejor = medirTiempo(SelectionSort::sort, mejorCaso);
+    tiempoPeor = medirTiempo(SelectionSort::sort, peorCaso);
+    tiempoPromedio = medirTiempo(SelectionSort::sort, casoPromedio);
+
+    std::cout << "SelectionSort - N: " << N << "\n";
+    std::cout << "Mejor caso: " << tiempoMejor << " ns\n";
+    std::cout << "Peor caso: " << tiempoPeor << " ns\n";
+    std::cout << "Caso promedio: " << tiempoPromedio << " ns\n";
 
     // MergeSort
-    std::vector<int> mergeData = data;
-    timer.start();
-    MergeSort::sort(mergeData);
-    long long mergeTime = timer.stop();
-    std::cout << "MergeSort duration: " << mergeTime << " ns\n";
+    tiempoMejor = medirTiempo(MergeSort::sort, mejorCaso);
+    tiempoPeor = medirTiempo(MergeSort::sort, peorCaso);
+    tiempoPromedio = medirTiempo(MergeSort::sort, casoPromedio);
 
-    // Pruebas con SortedLinkedList
-    SortedLinkedList sll;
-    sll.insert(10);
-    sll.insert(30);
-    sll.insert(20);
-    sll.insert(40);
+    std::cout << "MergeSort - N: " << N << "\n";
+    std::cout << "Mejor caso: " << tiempoMejor << " ns\n";
+    std::cout << "Peor caso: " << tiempoPeor << " ns\n";
+    std::cout << "Caso promedio: " << tiempoPromedio << " ns\n";
 
-    std::cout << "Sorted LinkedList: ";
-    sll.display();
+    // Búsqueda en LinkedList
+    SortedLinkedList lista;
+    for (int i = 0; i < N; ++i) {
+        lista.insert(i);
+    }
+    tiempoMejor = medirTiempo([&]() { lista.search(0); }); // Mejor caso: buscar el primer elemento
+    tiempoPeor = medirTiempo([&]() { lista.search(N - 1); }); // Peor caso: buscar el último
+    tiempoPromedio = medirTiempo([&]() { lista.search(N / 2); }); // Caso promedio: buscar en el medio
 
-    timer.start();
-    bool found = sll.search(20);
-    long long searchTime = timer.stop();
-    std::cout << "Search 20 in SortedLinkedList: " << (found ? "Found" : "Not Found") << " (Time: " << searchTime << " ns)\n";
+    std::cout << "LinkedList Search - N: " << N << "\n";
+    std::cout << "Mejor caso: " << tiempoMejor << " ns\n";
+    std::cout << "Peor caso: " << tiempoPeor << " ns\n";
+    std::cout << "Caso promedio: " << tiempoPromedio << " ns\n";
 
-    // Pruebas con BinarySearchTree
+    // Inserción en Binary Search Tree
     BinarySearchTree bst;
-    bst.insert(50);
-    bst.insert(30);
-    bst.insert(70);
-    bst.insert(20);
-    bst.insert(40);
-    bst.insert(60);
-    bst.insert(80);
+    tiempoMejor = medirTiempo([&]() {
+        for (int i = 0; i < N; ++i) {
+            bst.insert(i); // Mejor caso: insertar ordenado
+        }
+    });
 
-    std::cout << "InOrder Traversal of BST: ";
-    bst.inOrderTraversal();
-    std::cout << std::endl;
+    tiempoPeor = medirTiempo([&]() {
+        for (int i = N; i > 0; --i) {
+            bst.insert(i); // Peor caso: insertar en orden inverso
+        }
+    });
+
+    tiempoPromedio = medirTiempo([&]() {
+        for (int i = 0; i < N; ++i) {
+            bst.insert(rand() % 10000); // Caso promedio: insertar números aleatorios
+        }
+    });
+
+    std::cout << "Binary Search Tree Insert - N: " << N << "\n";
+    std::cout << "Mejor caso: " << tiempoMejor << " ns\n";
+    std::cout << "Peor caso: " << tiempoPeor << " ns\n";
+    std::cout << "Caso promedio: " << tiempoPromedio << " ns\n";
+}
+
+int main() {
+    srand(time(NULL)); // Semilla para números aleatorios
+
+    // Realizar pruebas con diferentes tamaños de entrada (valores de N)
+    for (int N : {100, 1000, 5000, 10000}) {
+        ejecutarPruebas(N);
+    }
 
     return 0;
 }

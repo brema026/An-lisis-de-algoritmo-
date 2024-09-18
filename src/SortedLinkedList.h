@@ -1,27 +1,23 @@
 #ifndef SORTEDLINKEDLIST_H
 #define SORTEDLINKEDLIST_H
 
-#include <iostream>
+#pragma once
+
+struct Node {
+    int data;
+    Node* next;
+    Node(int val) : data(val), next(nullptr) {}
+};
 
 class SortedLinkedList {
 public:
     SortedLinkedList();
     ~SortedLinkedList();
-
     void insert(int value);
-    bool search(int value);
-    void display();
-
+    bool search(int value) const;
+    void display() const;
 private:
-    struct Node {
-        int data;
-        Node* next;
-        Node* prev;
-        Node(int value) : data(value), next(nullptr), prev(nullptr) {}
-    };
-
     Node* head;
-    Node* tail;
 };
 
 #endif

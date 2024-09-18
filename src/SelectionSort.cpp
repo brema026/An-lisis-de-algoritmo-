@@ -9,6 +9,6 @@ void SelectionSort::sort(std::vector<int>& arr) {
                 minIndex = j;
             }
         }
-        std::swap(arr[i], arr[minIndex]);
+        std::swap(arr[minIndex], arr[i]);
     }
 }

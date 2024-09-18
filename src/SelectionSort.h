@@ -1,6 +1,7 @@
 #ifndef SELECTIONSORT_H
 #define SELECTIONSORT_H
 
+#pragma once
 #include <vector>
 
 class SelectionSort {

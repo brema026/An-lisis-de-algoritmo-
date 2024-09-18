@@ -1,6 +1,7 @@
 #ifndef BUBBLESORT_H
 #define BUBBLESORT_H
 
+#pragma once
 #include <vector>
 
 class BubbleSort {

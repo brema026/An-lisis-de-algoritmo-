@@ -1,9 +1,17 @@
 # ninja log v6
 89	1237	7482395922070588	CMakeFiles/AAlgoritmo.dir/src/BubbleSort.cpp.obj	cd46879b8eb3b828
-4	1327	7482395921221415	CMakeFiles/AAlgoritmo.dir/src/main.cpp.obj	77d271165db52db7
-173	1836	7482395922910015	CMakeFiles/AAlgoritmo.dir/src/Timer.cpp.obj	cfa64914dda7bcc1
-257	2370	7482395923754221	CMakeFiles/AAlgoritmo.dir/src/SelectionSort.cpp.obj	436688357ab6c3fb
+8	1081	7482403315522391	CMakeFiles/AAlgoritmo.dir/src/main.cpp.obj	77d271165db52db7
+9	569	7482400666073427	CMakeFiles/AAlgoritmo.dir/src/Timer.cpp.obj	cfa64914dda7bcc1
 338	2858	7482395924555159	CMakeFiles/AAlgoritmo.dir/src/MergeSort.cpp.obj	b8971b2f671e8151
+257	2370	7482395923754221	CMakeFiles/AAlgoritmo.dir/src/SelectionSort.cpp.obj	436688357ab6c3fb
 417	3548	7482395925351504	CMakeFiles/AAlgoritmo.dir/src/SortedLinkedList.cpp.obj	31132956a6078ef9
+1082	2209	7482403326250381	AAlgoritmo.exe	605d285407b920f8
 501	3951	7482395926188800	CMakeFiles/AAlgoritmo.dir/src/BinarySearchTree.cpp.obj	f47ef1c8977a31c4
-3955	5271	7482395960735740	AAlgoritmo.exe	605d285407b920f8
+464	1681	7484006316953994	build.ninja	20eb57812db21f84
+73	1184	7484006318772025	CMakeFiles/AAlgoritmo.dir/src/BubbleSort.cpp.obj	cd46879b8eb3b828
+13	1253	7484006318175436	CMakeFiles/AAlgoritmo.dir/src/main.cpp.obj	77d271165db52db7
+152	1581	7484006319558822	CMakeFiles/AAlgoritmo.dir/src/SelectionSort.cpp.obj	436688357ab6c3fb
+227	1984	7484006320312799	CMakeFiles/AAlgoritmo.dir/src/MergeSort.cpp.obj	b8971b2f671e8151
+397	2638	7484006322012371	CMakeFiles/AAlgoritmo.dir/src/BinarySearchTree.cpp.obj	f47ef1c8977a31c4
+319	2714	7484006321234152	CMakeFiles/AAlgoritmo.dir/src/SortedLinkedList.cpp.obj	31132956a6078ef9
+2715	3851	7484006345187463	AAlgoritmo.exe	a63b2765f6374a1b

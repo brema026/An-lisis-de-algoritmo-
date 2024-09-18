@@ -61,12 +61,6 @@ build CMakeFiles/AAlgoritmo.dir/src/BubbleSort.cpp.obj: CXX_COMPILER__AAlgoritmo
   OBJECT_DIR = CMakeFiles\AAlgoritmo.dir
   OBJECT_FILE_DIR = CMakeFiles\AAlgoritmo.dir\src
 
-build CMakeFiles/AAlgoritmo.dir/src/Timer.cpp.obj: CXX_COMPILER__AAlgoritmo_unscanned_Debug C$:/Users/Brene/OneDrive/Escritorio/AAlgoritmo/src/Timer.cpp || cmake_object_order_depends_target_AAlgoritmo
-  DEP_FILE = CMakeFiles\AAlgoritmo.dir\src\Timer.cpp.obj.d
-  FLAGS = -g -std=gnu++2a -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\AAlgoritmo.dir
-  OBJECT_FILE_DIR = CMakeFiles\AAlgoritmo.dir\src
-
 build CMakeFiles/AAlgoritmo.dir/src/SelectionSort.cpp.obj: CXX_COMPILER__AAlgoritmo_unscanned_Debug C$:/Users/Brene/OneDrive/Escritorio/AAlgoritmo/src/SelectionSort.cpp || cmake_object_order_depends_target_AAlgoritmo
   DEP_FILE = CMakeFiles\AAlgoritmo.dir\src\SelectionSort.cpp.obj.d
   FLAGS = -g -std=gnu++2a -fdiagnostics-color=always
@@ -99,7 +93,7 @@ build CMakeFiles/AAlgoritmo.dir/src/BinarySearchTree.cpp.obj: CXX_COMPILER__AAlg
 #############################################
 # Link the executable AAlgoritmo.exe
 
-build AAlgoritmo.exe: CXX_EXECUTABLE_LINKER__AAlgoritmo_Debug CMakeFiles/AAlgoritmo.dir/src/main.cpp.obj CMakeFiles/AAlgoritmo.dir/src/BubbleSort.cpp.obj CMakeFiles/AAlgoritmo.dir/src/Timer.cpp.obj CMakeFiles/AAlgoritmo.dir/src/SelectionSort.cpp.obj CMakeFiles/AAlgoritmo.dir/src/MergeSort.cpp.obj CMakeFiles/AAlgoritmo.dir/src/SortedLinkedList.cpp.obj CMakeFiles/AAlgoritmo.dir/src/BinarySearchTree.cpp.obj
+build AAlgoritmo.exe: CXX_EXECUTABLE_LINKER__AAlgoritmo_Debug CMakeFiles/AAlgoritmo.dir/src/main.cpp.obj CMakeFiles/AAlgoritmo.dir/src/BubbleSort.cpp.obj CMakeFiles/AAlgoritmo.dir/src/SelectionSort.cpp.obj CMakeFiles/AAlgoritmo.dir/src/MergeSort.cpp.obj CMakeFiles/AAlgoritmo.dir/src/SortedLinkedList.cpp.obj CMakeFiles/AAlgoritmo.dir/src/BinarySearchTree.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\AAlgoritmo.dir

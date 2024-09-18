@@ -6,8 +6,7 @@ set(CMAKE_CXX_STANDARD 26)
 add_executable(AAlgoritmo src/main.cpp
         src/BubbleSort.cpp
         src/BubbleSort.h
-        src/Timer.cpp
-        src/Timer.h
+        src/BenchMark.h
         src/SelectionSort.cpp
         src/SelectionSort.h
         src/MergeSort.cpp

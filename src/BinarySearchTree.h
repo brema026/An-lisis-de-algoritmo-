@@ -1,26 +1,23 @@
 #ifndef BINARYSEARCHTREE_H
 #define BINARYSEARCHTREE_H
 
+#pragma once
+
 class BinarySearchTree {
 public:
     BinarySearchTree();
-    ~BinarySearchTree();
-
     void insert(int value);
-    void inOrderTraversal();
-
+    bool search(int value) const;
 private:
-    struct Node {
+    struct TreeNode {
         int data;
-        Node* left;
-        Node* right;
-        Node(int value) : data(value), left(nullptr), right(nullptr) {}
+        TreeNode* left;
+        TreeNode* right;
+        TreeNode(int val) : data(val), left(nullptr), right(nullptr) {}
     };
-
-    Node* root;
-    void insert(Node*& node, int value);
-    void inOrderTraversal(Node* node);
-    void destroyTree(Node* node);
+    TreeNode* root;
+    void insertHelper(TreeNode*& node, int value);
+    bool searchHelper(TreeNode* node, int value) const;
 };
 
 #endif

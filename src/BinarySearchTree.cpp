@@ -1,42 +1,29 @@
 #include "BinarySearchTree.h"
-#include <iostream>
+
 
 BinarySearchTree::BinarySearchTree() : root(nullptr) {}
 
-BinarySearchTree::~BinarySearchTree() {
-    destroyTree(root);
-}
-
-void BinarySearchTree::destroyTree(Node* node) {
-    if (node != nullptr) {
-        destroyTree(node->left);
-        destroyTree(node->right);
-        delete node;
-    }
-}
-
 void BinarySearchTree::insert(int value) {
-    insert(root, value);
+    insertHelper(root, value);
 }
 
-void BinarySearchTree::insert(Node*& node, int value) {
-    if (node == nullptr) {
-        node = new Node(value);
+void BinarySearchTree::insertHelper(TreeNode*& node, int value) {
+    if (!node) {
+        node = new TreeNode(value);
     } else if (value < node->data) {
-        insert(node->left, value);
+        insertHelper(node->left, value);
     } else {
-        insert(node->right, value);
+        insertHelper(node->right, value);
     }
 }
 
-void BinarySearchTree::inOrderTraversal() {
-    inOrderTraversal(root);
+bool BinarySearchTree::search(int value) const {
+    return searchHelper(root, value);
 }
 
-void BinarySearchTree::inOrderTraversal(Node* node) {
-    if (node != nullptr) {
-        inOrderTraversal(node->left);
-        std::cout << node->data << " ";
-        inOrderTraversal(node->right);
-    }
+bool BinarySearchTree::searchHelper(TreeNode* node, int value) const {
+    if (!node) return false;
+    if (value == node->data) return true;
+    else if (value < node->data) return searchHelper(node->left, value);
+    else return searchHelper(node->right, value);
 }
