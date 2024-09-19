@@ -49,41 +49,140 @@ cmake_ninja_workdir = C$:/Users/Brene/OneDrive/Escritorio/AAlgoritmo/cmake-build
 
 build cmake_object_order_depends_target_AAlgoritmo: phony || CMakeFiles/AAlgoritmo.dir
 
-build CMakeFiles/AAlgoritmo.dir/src/main.cpp.obj: CXX_COMPILER__AAlgoritmo_unscanned_Debug C$:/Users/Brene/OneDrive/Escritorio/AAlgoritmo/src/main.cpp || cmake_object_order_depends_target_AAlgoritmo
+build CMakeFiles/AAlgoritmo.dir/src/main.cpp.obj.ddi: CXX_SCAN__AAlgoritmo_Debug C$:/Users/Brene/OneDrive/Escritorio/AAlgoritmo/src/main.cpp || cmake_object_order_depends_target_AAlgoritmo
+  DEFINES = -DLIBDEFLATE_DLL
+  DEP_FILE = CMakeFiles\AAlgoritmo.dir\src\main.cpp.obj.ddi.d
+  DYNDEP_INTERMEDIATE_FILE = CMakeFiles\AAlgoritmo.dir\src\main.cpp.obj.ddi
+  FLAGS = -fno-stack-protector -g -std=gnu++23 -fdiagnostics-color=always
+  INCLUDES = -IC:/msys64/mingw64/bin/../include/gtk-3.0 -IC:/msys64/mingw64/bin/../include/pango-1.0 -IC:/msys64/mingw64/bin/../include/harfbuzz -IC:/msys64/mingw64/bin/../include/cairo -IC:/msys64/mingw64/bin/../include/freetype2 -IC:/msys64/mingw64/bin/../include/pixman-1 -IC:/msys64/mingw64/bin/../include/gdk-pixbuf-2.0 -IC:/msys64/mingw64/bin/../include/libpng16 -IC:/msys64/mingw64/bin/../include/webp -IC:/msys64/mingw64/bin/../include/atk-1.0 -IC:/msys64/mingw64/bin/../include/fribidi -IC:/msys64/mingw64/bin/../include/glib-2.0 -IC:/msys64/mingw64/bin/../lib/glib-2.0/include
+  OBJ_FILE = CMakeFiles\AAlgoritmo.dir\src\main.cpp.obj
+  PREPROCESSED_OUTPUT_FILE = CMakeFiles\AAlgoritmo.dir\src\main.cpp.obj.ddi.i
+
+build CMakeFiles/AAlgoritmo.dir/src/main.cpp.obj: CXX_COMPILER__AAlgoritmo_scanned_Debug C$:/Users/Brene/OneDrive/Escritorio/AAlgoritmo/src/main.cpp || cmake_object_order_depends_target_AAlgoritmo CMakeFiles/AAlgoritmo.dir/CXX.dd CMakeFiles/AAlgoritmo.dir/src/main.cpp.obj.modmap
+  DEFINES = -DLIBDEFLATE_DLL
   DEP_FILE = CMakeFiles\AAlgoritmo.dir\src\main.cpp.obj.d
-  FLAGS = -g -std=gnu++2a -fdiagnostics-color=always
+  DYNDEP_MODULE_MAP_FILE = CMakeFiles\AAlgoritmo.dir\src\main.cpp.obj.modmap
+  FLAGS = -fno-stack-protector -g -std=gnu++23 -fdiagnostics-color=always
+  INCLUDES = -IC:/msys64/mingw64/bin/../include/gtk-3.0 -IC:/msys64/mingw64/bin/../include/pango-1.0 -IC:/msys64/mingw64/bin/../include/harfbuzz -IC:/msys64/mingw64/bin/../include/cairo -IC:/msys64/mingw64/bin/../include/freetype2 -IC:/msys64/mingw64/bin/../include/pixman-1 -IC:/msys64/mingw64/bin/../include/gdk-pixbuf-2.0 -IC:/msys64/mingw64/bin/../include/libpng16 -IC:/msys64/mingw64/bin/../include/webp -IC:/msys64/mingw64/bin/../include/atk-1.0 -IC:/msys64/mingw64/bin/../include/fribidi -IC:/msys64/mingw64/bin/../include/glib-2.0 -IC:/msys64/mingw64/bin/../lib/glib-2.0/include
   OBJECT_DIR = CMakeFiles\AAlgoritmo.dir
   OBJECT_FILE_DIR = CMakeFiles\AAlgoritmo.dir\src
+  dyndep = CMakeFiles/AAlgoritmo.dir/CXX.dd
 
-build CMakeFiles/AAlgoritmo.dir/src/BubbleSort.cpp.obj: CXX_COMPILER__AAlgoritmo_unscanned_Debug C$:/Users/Brene/OneDrive/Escritorio/AAlgoritmo/src/BubbleSort.cpp || cmake_object_order_depends_target_AAlgoritmo
+build CMakeFiles/AAlgoritmo.dir/src/BubbleSort.cpp.obj.ddi: CXX_SCAN__AAlgoritmo_Debug C$:/Users/Brene/OneDrive/Escritorio/AAlgoritmo/src/BubbleSort.cpp || cmake_object_order_depends_target_AAlgoritmo
+  DEFINES = -DLIBDEFLATE_DLL
+  DEP_FILE = CMakeFiles\AAlgoritmo.dir\src\BubbleSort.cpp.obj.ddi.d
+  DYNDEP_INTERMEDIATE_FILE = CMakeFiles\AAlgoritmo.dir\src\BubbleSort.cpp.obj.ddi
+  FLAGS = -fno-stack-protector -g -std=gnu++23 -fdiagnostics-color=always
+  INCLUDES = -IC:/msys64/mingw64/bin/../include/gtk-3.0 -IC:/msys64/mingw64/bin/../include/pango-1.0 -IC:/msys64/mingw64/bin/../include/harfbuzz -IC:/msys64/mingw64/bin/../include/cairo -IC:/msys64/mingw64/bin/../include/freetype2 -IC:/msys64/mingw64/bin/../include/pixman-1 -IC:/msys64/mingw64/bin/../include/gdk-pixbuf-2.0 -IC:/msys64/mingw64/bin/../include/libpng16 -IC:/msys64/mingw64/bin/../include/webp -IC:/msys64/mingw64/bin/../include/atk-1.0 -IC:/msys64/mingw64/bin/../include/fribidi -IC:/msys64/mingw64/bin/../include/glib-2.0 -IC:/msys64/mingw64/bin/../lib/glib-2.0/include
+  OBJ_FILE = CMakeFiles\AAlgoritmo.dir\src\BubbleSort.cpp.obj
+  PREPROCESSED_OUTPUT_FILE = CMakeFiles\AAlgoritmo.dir\src\BubbleSort.cpp.obj.ddi.i
+
+build CMakeFiles/AAlgoritmo.dir/src/BubbleSort.cpp.obj: CXX_COMPILER__AAlgoritmo_scanned_Debug C$:/Users/Brene/OneDrive/Escritorio/AAlgoritmo/src/BubbleSort.cpp || cmake_object_order_depends_target_AAlgoritmo CMakeFiles/AAlgoritmo.dir/CXX.dd CMakeFiles/AAlgoritmo.dir/src/BubbleSort.cpp.obj.modmap
+  DEFINES = -DLIBDEFLATE_DLL
   DEP_FILE = CMakeFiles\AAlgoritmo.dir\src\BubbleSort.cpp.obj.d
-  FLAGS = -g -std=gnu++2a -fdiagnostics-color=always
+  DYNDEP_MODULE_MAP_FILE = CMakeFiles\AAlgoritmo.dir\src\BubbleSort.cpp.obj.modmap
+  FLAGS = -fno-stack-protector -g -std=gnu++23 -fdiagnostics-color=always
+  INCLUDES = -IC:/msys64/mingw64/bin/../include/gtk-3.0 -IC:/msys64/mingw64/bin/../include/pango-1.0 -IC:/msys64/mingw64/bin/../include/harfbuzz -IC:/msys64/mingw64/bin/../include/cairo -IC:/msys64/mingw64/bin/../include/freetype2 -IC:/msys64/mingw64/bin/../include/pixman-1 -IC:/msys64/mingw64/bin/../include/gdk-pixbuf-2.0 -IC:/msys64/mingw64/bin/../include/libpng16 -IC:/msys64/mingw64/bin/../include/webp -IC:/msys64/mingw64/bin/../include/atk-1.0 -IC:/msys64/mingw64/bin/../include/fribidi -IC:/msys64/mingw64/bin/../include/glib-2.0 -IC:/msys64/mingw64/bin/../lib/glib-2.0/include
   OBJECT_DIR = CMakeFiles\AAlgoritmo.dir
   OBJECT_FILE_DIR = CMakeFiles\AAlgoritmo.dir\src
+  dyndep = CMakeFiles/AAlgoritmo.dir/CXX.dd
 
-build CMakeFiles/AAlgoritmo.dir/src/SelectionSort.cpp.obj: CXX_COMPILER__AAlgoritmo_unscanned_Debug C$:/Users/Brene/OneDrive/Escritorio/AAlgoritmo/src/SelectionSort.cpp || cmake_object_order_depends_target_AAlgoritmo
+build CMakeFiles/AAlgoritmo.dir/src/SelectionSort.cpp.obj.ddi: CXX_SCAN__AAlgoritmo_Debug C$:/Users/Brene/OneDrive/Escritorio/AAlgoritmo/src/SelectionSort.cpp || cmake_object_order_depends_target_AAlgoritmo
+  DEFINES = -DLIBDEFLATE_DLL
+  DEP_FILE = CMakeFiles\AAlgoritmo.dir\src\SelectionSort.cpp.obj.ddi.d
+  DYNDEP_INTERMEDIATE_FILE = CMakeFiles\AAlgoritmo.dir\src\SelectionSort.cpp.obj.ddi
+  FLAGS = -fno-stack-protector -g -std=gnu++23 -fdiagnostics-color=always
+  INCLUDES = -IC:/msys64/mingw64/bin/../include/gtk-3.0 -IC:/msys64/mingw64/bin/../include/pango-1.0 -IC:/msys64/mingw64/bin/../include/harfbuzz -IC:/msys64/mingw64/bin/../include/cairo -IC:/msys64/mingw64/bin/../include/freetype2 -IC:/msys64/mingw64/bin/../include/pixman-1 -IC:/msys64/mingw64/bin/../include/gdk-pixbuf-2.0 -IC:/msys64/mingw64/bin/../include/libpng16 -IC:/msys64/mingw64/bin/../include/webp -IC:/msys64/mingw64/bin/../include/atk-1.0 -IC:/msys64/mingw64/bin/../include/fribidi -IC:/msys64/mingw64/bin/../include/glib-2.0 -IC:/msys64/mingw64/bin/../lib/glib-2.0/include
+  OBJ_FILE = CMakeFiles\AAlgoritmo.dir\src\SelectionSort.cpp.obj
+  PREPROCESSED_OUTPUT_FILE = CMakeFiles\AAlgoritmo.dir\src\SelectionSort.cpp.obj.ddi.i
+
+build CMakeFiles/AAlgoritmo.dir/src/SelectionSort.cpp.obj: CXX_COMPILER__AAlgoritmo_scanned_Debug C$:/Users/Brene/OneDrive/Escritorio/AAlgoritmo/src/SelectionSort.cpp || cmake_object_order_depends_target_AAlgoritmo CMakeFiles/AAlgoritmo.dir/CXX.dd CMakeFiles/AAlgoritmo.dir/src/SelectionSort.cpp.obj.modmap
+  DEFINES = -DLIBDEFLATE_DLL
   DEP_FILE = CMakeFiles\AAlgoritmo.dir\src\SelectionSort.cpp.obj.d
-  FLAGS = -g -std=gnu++2a -fdiagnostics-color=always
+  DYNDEP_MODULE_MAP_FILE = CMakeFiles\AAlgoritmo.dir\src\SelectionSort.cpp.obj.modmap
+  FLAGS = -fno-stack-protector -g -std=gnu++23 -fdiagnostics-color=always
+  INCLUDES = -IC:/msys64/mingw64/bin/../include/gtk-3.0 -IC:/msys64/mingw64/bin/../include/pango-1.0 -IC:/msys64/mingw64/bin/../include/harfbuzz -IC:/msys64/mingw64/bin/../include/cairo -IC:/msys64/mingw64/bin/../include/freetype2 -IC:/msys64/mingw64/bin/../include/pixman-1 -IC:/msys64/mingw64/bin/../include/gdk-pixbuf-2.0 -IC:/msys64/mingw64/bin/../include/libpng16 -IC:/msys64/mingw64/bin/../include/webp -IC:/msys64/mingw64/bin/../include/atk-1.0 -IC:/msys64/mingw64/bin/../include/fribidi -IC:/msys64/mingw64/bin/../include/glib-2.0 -IC:/msys64/mingw64/bin/../lib/glib-2.0/include
   OBJECT_DIR = CMakeFiles\AAlgoritmo.dir
   OBJECT_FILE_DIR = CMakeFiles\AAlgoritmo.dir\src
+  dyndep = CMakeFiles/AAlgoritmo.dir/CXX.dd
 
-build CMakeFiles/AAlgoritmo.dir/src/MergeSort.cpp.obj: CXX_COMPILER__AAlgoritmo_unscanned_Debug C$:/Users/Brene/OneDrive/Escritorio/AAlgoritmo/src/MergeSort.cpp || cmake_object_order_depends_target_AAlgoritmo
+build CMakeFiles/AAlgoritmo.dir/src/MergeSort.cpp.obj.ddi: CXX_SCAN__AAlgoritmo_Debug C$:/Users/Brene/OneDrive/Escritorio/AAlgoritmo/src/MergeSort.cpp || cmake_object_order_depends_target_AAlgoritmo
+  DEFINES = -DLIBDEFLATE_DLL
+  DEP_FILE = CMakeFiles\AAlgoritmo.dir\src\MergeSort.cpp.obj.ddi.d
+  DYNDEP_INTERMEDIATE_FILE = CMakeFiles\AAlgoritmo.dir\src\MergeSort.cpp.obj.ddi
+  FLAGS = -fno-stack-protector -g -std=gnu++23 -fdiagnostics-color=always
+  INCLUDES = -IC:/msys64/mingw64/bin/../include/gtk-3.0 -IC:/msys64/mingw64/bin/../include/pango-1.0 -IC:/msys64/mingw64/bin/../include/harfbuzz -IC:/msys64/mingw64/bin/../include/cairo -IC:/msys64/mingw64/bin/../include/freetype2 -IC:/msys64/mingw64/bin/../include/pixman-1 -IC:/msys64/mingw64/bin/../include/gdk-pixbuf-2.0 -IC:/msys64/mingw64/bin/../include/libpng16 -IC:/msys64/mingw64/bin/../include/webp -IC:/msys64/mingw64/bin/../include/atk-1.0 -IC:/msys64/mingw64/bin/../include/fribidi -IC:/msys64/mingw64/bin/../include/glib-2.0 -IC:/msys64/mingw64/bin/../lib/glib-2.0/include
+  OBJ_FILE = CMakeFiles\AAlgoritmo.dir\src\MergeSort.cpp.obj
+  PREPROCESSED_OUTPUT_FILE = CMakeFiles\AAlgoritmo.dir\src\MergeSort.cpp.obj.ddi.i
+
+build CMakeFiles/AAlgoritmo.dir/src/MergeSort.cpp.obj: CXX_COMPILER__AAlgoritmo_scanned_Debug C$:/Users/Brene/OneDrive/Escritorio/AAlgoritmo/src/MergeSort.cpp || cmake_object_order_depends_target_AAlgoritmo CMakeFiles/AAlgoritmo.dir/CXX.dd CMakeFiles/AAlgoritmo.dir/src/MergeSort.cpp.obj.modmap
+  DEFINES = -DLIBDEFLATE_DLL
   DEP_FILE = CMakeFiles\AAlgoritmo.dir\src\MergeSort.cpp.obj.d
-  FLAGS = -g -std=gnu++2a -fdiagnostics-color=always
+  DYNDEP_MODULE_MAP_FILE = CMakeFiles\AAlgoritmo.dir\src\MergeSort.cpp.obj.modmap
+  FLAGS = -fno-stack-protector -g -std=gnu++23 -fdiagnostics-color=always
+  INCLUDES = -IC:/msys64/mingw64/bin/../include/gtk-3.0 -IC:/msys64/mingw64/bin/../include/pango-1.0 -IC:/msys64/mingw64/bin/../include/harfbuzz -IC:/msys64/mingw64/bin/../include/cairo -IC:/msys64/mingw64/bin/../include/freetype2 -IC:/msys64/mingw64/bin/../include/pixman-1 -IC:/msys64/mingw64/bin/../include/gdk-pixbuf-2.0 -IC:/msys64/mingw64/bin/../include/libpng16 -IC:/msys64/mingw64/bin/../include/webp -IC:/msys64/mingw64/bin/../include/atk-1.0 -IC:/msys64/mingw64/bin/../include/fribidi -IC:/msys64/mingw64/bin/../include/glib-2.0 -IC:/msys64/mingw64/bin/../lib/glib-2.0/include
   OBJECT_DIR = CMakeFiles\AAlgoritmo.dir
   OBJECT_FILE_DIR = CMakeFiles\AAlgoritmo.dir\src
+  dyndep = CMakeFiles/AAlgoritmo.dir/CXX.dd
 
-build CMakeFiles/AAlgoritmo.dir/src/SortedLinkedList.cpp.obj: CXX_COMPILER__AAlgoritmo_unscanned_Debug C$:/Users/Brene/OneDrive/Escritorio/AAlgoritmo/src/SortedLinkedList.cpp || cmake_object_order_depends_target_AAlgoritmo
+build CMakeFiles/AAlgoritmo.dir/src/SortedLinkedList.cpp.obj.ddi: CXX_SCAN__AAlgoritmo_Debug C$:/Users/Brene/OneDrive/Escritorio/AAlgoritmo/src/SortedLinkedList.cpp || cmake_object_order_depends_target_AAlgoritmo
+  DEFINES = -DLIBDEFLATE_DLL
+  DEP_FILE = CMakeFiles\AAlgoritmo.dir\src\SortedLinkedList.cpp.obj.ddi.d
+  DYNDEP_INTERMEDIATE_FILE = CMakeFiles\AAlgoritmo.dir\src\SortedLinkedList.cpp.obj.ddi
+  FLAGS = -fno-stack-protector -g -std=gnu++23 -fdiagnostics-color=always
+  INCLUDES = -IC:/msys64/mingw64/bin/../include/gtk-3.0 -IC:/msys64/mingw64/bin/../include/pango-1.0 -IC:/msys64/mingw64/bin/../include/harfbuzz -IC:/msys64/mingw64/bin/../include/cairo -IC:/msys64/mingw64/bin/../include/freetype2 -IC:/msys64/mingw64/bin/../include/pixman-1 -IC:/msys64/mingw64/bin/../include/gdk-pixbuf-2.0 -IC:/msys64/mingw64/bin/../include/libpng16 -IC:/msys64/mingw64/bin/../include/webp -IC:/msys64/mingw64/bin/../include/atk-1.0 -IC:/msys64/mingw64/bin/../include/fribidi -IC:/msys64/mingw64/bin/../include/glib-2.0 -IC:/msys64/mingw64/bin/../lib/glib-2.0/include
+  OBJ_FILE = CMakeFiles\AAlgoritmo.dir\src\SortedLinkedList.cpp.obj
+  PREPROCESSED_OUTPUT_FILE = CMakeFiles\AAlgoritmo.dir\src\SortedLinkedList.cpp.obj.ddi.i
+
+build CMakeFiles/AAlgoritmo.dir/src/SortedLinkedList.cpp.obj: CXX_COMPILER__AAlgoritmo_scanned_Debug C$:/Users/Brene/OneDrive/Escritorio/AAlgoritmo/src/SortedLinkedList.cpp || cmake_object_order_depends_target_AAlgoritmo CMakeFiles/AAlgoritmo.dir/CXX.dd CMakeFiles/AAlgoritmo.dir/src/SortedLinkedList.cpp.obj.modmap
+  DEFINES = -DLIBDEFLATE_DLL
   DEP_FILE = CMakeFiles\AAlgoritmo.dir\src\SortedLinkedList.cpp.obj.d
-  FLAGS = -g -std=gnu++2a -fdiagnostics-color=always
+  DYNDEP_MODULE_MAP_FILE = CMakeFiles\AAlgoritmo.dir\src\SortedLinkedList.cpp.obj.modmap
+  FLAGS = -fno-stack-protector -g -std=gnu++23 -fdiagnostics-color=always
+  INCLUDES = -IC:/msys64/mingw64/bin/../include/gtk-3.0 -IC:/msys64/mingw64/bin/../include/pango-1.0 -IC:/msys64/mingw64/bin/../include/harfbuzz -IC:/msys64/mingw64/bin/../include/cairo -IC:/msys64/mingw64/bin/../include/freetype2 -IC:/msys64/mingw64/bin/../include/pixman-1 -IC:/msys64/mingw64/bin/../include/gdk-pixbuf-2.0 -IC:/msys64/mingw64/bin/../include/libpng16 -IC:/msys64/mingw64/bin/../include/webp -IC:/msys64/mingw64/bin/../include/atk-1.0 -IC:/msys64/mingw64/bin/../include/fribidi -IC:/msys64/mingw64/bin/../include/glib-2.0 -IC:/msys64/mingw64/bin/../lib/glib-2.0/include
   OBJECT_DIR = CMakeFiles\AAlgoritmo.dir
   OBJECT_FILE_DIR = CMakeFiles\AAlgoritmo.dir\src
+  dyndep = CMakeFiles/AAlgoritmo.dir/CXX.dd
 
-build CMakeFiles/AAlgoritmo.dir/src/BinarySearchTree.cpp.obj: CXX_COMPILER__AAlgoritmo_unscanned_Debug C$:/Users/Brene/OneDrive/Escritorio/AAlgoritmo/src/BinarySearchTree.cpp || cmake_object_order_depends_target_AAlgoritmo
+build CMakeFiles/AAlgoritmo.dir/src/BinarySearchTree.cpp.obj.ddi: CXX_SCAN__AAlgoritmo_Debug C$:/Users/Brene/OneDrive/Escritorio/AAlgoritmo/src/BinarySearchTree.cpp || cmake_object_order_depends_target_AAlgoritmo
+  DEFINES = -DLIBDEFLATE_DLL
+  DEP_FILE = CMakeFiles\AAlgoritmo.dir\src\BinarySearchTree.cpp.obj.ddi.d
+  DYNDEP_INTERMEDIATE_FILE = CMakeFiles\AAlgoritmo.dir\src\BinarySearchTree.cpp.obj.ddi
+  FLAGS = -fno-stack-protector -g -std=gnu++23 -fdiagnostics-color=always
+  INCLUDES = -IC:/msys64/mingw64/bin/../include/gtk-3.0 -IC:/msys64/mingw64/bin/../include/pango-1.0 -IC:/msys64/mingw64/bin/../include/harfbuzz -IC:/msys64/mingw64/bin/../include/cairo -IC:/msys64/mingw64/bin/../include/freetype2 -IC:/msys64/mingw64/bin/../include/pixman-1 -IC:/msys64/mingw64/bin/../include/gdk-pixbuf-2.0 -IC:/msys64/mingw64/bin/../include/libpng16 -IC:/msys64/mingw64/bin/../include/webp -IC:/msys64/mingw64/bin/../include/atk-1.0 -IC:/msys64/mingw64/bin/../include/fribidi -IC:/msys64/mingw64/bin/../include/glib-2.0 -IC:/msys64/mingw64/bin/../lib/glib-2.0/include
+  OBJ_FILE = CMakeFiles\AAlgoritmo.dir\src\BinarySearchTree.cpp.obj
+  PREPROCESSED_OUTPUT_FILE = CMakeFiles\AAlgoritmo.dir\src\BinarySearchTree.cpp.obj.ddi.i
+
+build CMakeFiles/AAlgoritmo.dir/src/BinarySearchTree.cpp.obj: CXX_COMPILER__AAlgoritmo_scanned_Debug C$:/Users/Brene/OneDrive/Escritorio/AAlgoritmo/src/BinarySearchTree.cpp || cmake_object_order_depends_target_AAlgoritmo CMakeFiles/AAlgoritmo.dir/CXX.dd CMakeFiles/AAlgoritmo.dir/src/BinarySearchTree.cpp.obj.modmap
+  DEFINES = -DLIBDEFLATE_DLL
   DEP_FILE = CMakeFiles\AAlgoritmo.dir\src\BinarySearchTree.cpp.obj.d
-  FLAGS = -g -std=gnu++2a -fdiagnostics-color=always
+  DYNDEP_MODULE_MAP_FILE = CMakeFiles\AAlgoritmo.dir\src\BinarySearchTree.cpp.obj.modmap
+  FLAGS = -fno-stack-protector -g -std=gnu++23 -fdiagnostics-color=always
+  INCLUDES = -IC:/msys64/mingw64/bin/../include/gtk-3.0 -IC:/msys64/mingw64/bin/../include/pango-1.0 -IC:/msys64/mingw64/bin/../include/harfbuzz -IC:/msys64/mingw64/bin/../include/cairo -IC:/msys64/mingw64/bin/../include/freetype2 -IC:/msys64/mingw64/bin/../include/pixman-1 -IC:/msys64/mingw64/bin/../include/gdk-pixbuf-2.0 -IC:/msys64/mingw64/bin/../include/libpng16 -IC:/msys64/mingw64/bin/../include/webp -IC:/msys64/mingw64/bin/../include/atk-1.0 -IC:/msys64/mingw64/bin/../include/fribidi -IC:/msys64/mingw64/bin/../include/glib-2.0 -IC:/msys64/mingw64/bin/../lib/glib-2.0/include
   OBJECT_DIR = CMakeFiles\AAlgoritmo.dir
   OBJECT_FILE_DIR = CMakeFiles\AAlgoritmo.dir\src
+  dyndep = CMakeFiles/AAlgoritmo.dir/CXX.dd
+
+build CMakeFiles/AAlgoritmo.dir/src/benchmark_graph.cpp.obj.ddi: CXX_SCAN__AAlgoritmo_Debug C$:/Users/Brene/OneDrive/Escritorio/AAlgoritmo/src/benchmark_graph.cpp || cmake_object_order_depends_target_AAlgoritmo
+  DEFINES = -DLIBDEFLATE_DLL
+  DEP_FILE = CMakeFiles\AAlgoritmo.dir\src\benchmark_graph.cpp.obj.ddi.d
+  DYNDEP_INTERMEDIATE_FILE = CMakeFiles\AAlgoritmo.dir\src\benchmark_graph.cpp.obj.ddi
+  FLAGS = -fno-stack-protector -g -std=gnu++23 -fdiagnostics-color=always
+  INCLUDES = -IC:/msys64/mingw64/bin/../include/gtk-3.0 -IC:/msys64/mingw64/bin/../include/pango-1.0 -IC:/msys64/mingw64/bin/../include/harfbuzz -IC:/msys64/mingw64/bin/../include/cairo -IC:/msys64/mingw64/bin/../include/freetype2 -IC:/msys64/mingw64/bin/../include/pixman-1 -IC:/msys64/mingw64/bin/../include/gdk-pixbuf-2.0 -IC:/msys64/mingw64/bin/../include/libpng16 -IC:/msys64/mingw64/bin/../include/webp -IC:/msys64/mingw64/bin/../include/atk-1.0 -IC:/msys64/mingw64/bin/../include/fribidi -IC:/msys64/mingw64/bin/../include/glib-2.0 -IC:/msys64/mingw64/bin/../lib/glib-2.0/include
+  OBJ_FILE = CMakeFiles\AAlgoritmo.dir\src\benchmark_graph.cpp.obj
+  PREPROCESSED_OUTPUT_FILE = CMakeFiles\AAlgoritmo.dir\src\benchmark_graph.cpp.obj.ddi.i
+
+build CMakeFiles/AAlgoritmo.dir/src/benchmark_graph.cpp.obj: CXX_COMPILER__AAlgoritmo_scanned_Debug C$:/Users/Brene/OneDrive/Escritorio/AAlgoritmo/src/benchmark_graph.cpp || cmake_object_order_depends_target_AAlgoritmo CMakeFiles/AAlgoritmo.dir/CXX.dd CMakeFiles/AAlgoritmo.dir/src/benchmark_graph.cpp.obj.modmap
+  DEFINES = -DLIBDEFLATE_DLL
+  DEP_FILE = CMakeFiles\AAlgoritmo.dir\src\benchmark_graph.cpp.obj.d
+  DYNDEP_MODULE_MAP_FILE = CMakeFiles\AAlgoritmo.dir\src\benchmark_graph.cpp.obj.modmap
+  FLAGS = -fno-stack-protector -g -std=gnu++23 -fdiagnostics-color=always
+  INCLUDES = -IC:/msys64/mingw64/bin/../include/gtk-3.0 -IC:/msys64/mingw64/bin/../include/pango-1.0 -IC:/msys64/mingw64/bin/../include/harfbuzz -IC:/msys64/mingw64/bin/../include/cairo -IC:/msys64/mingw64/bin/../include/freetype2 -IC:/msys64/mingw64/bin/../include/pixman-1 -IC:/msys64/mingw64/bin/../include/gdk-pixbuf-2.0 -IC:/msys64/mingw64/bin/../include/libpng16 -IC:/msys64/mingw64/bin/../include/webp -IC:/msys64/mingw64/bin/../include/atk-1.0 -IC:/msys64/mingw64/bin/../include/fribidi -IC:/msys64/mingw64/bin/../include/glib-2.0 -IC:/msys64/mingw64/bin/../lib/glib-2.0/include
+  OBJECT_DIR = CMakeFiles\AAlgoritmo.dir
+  OBJECT_FILE_DIR = CMakeFiles\AAlgoritmo.dir\src
+  dyndep = CMakeFiles/AAlgoritmo.dir/CXX.dd
+
+build CMakeFiles/AAlgoritmo.dir/CXX.dd | C$:/Users/Brene/OneDrive/Escritorio/AAlgoritmo/cmake-build-debug/CMakeFiles/AAlgoritmo.dir/CXXModules.json CMakeFiles/AAlgoritmo.dir/src/main.cpp.obj.modmap CMakeFiles/AAlgoritmo.dir/src/BubbleSort.cpp.obj.modmap CMakeFiles/AAlgoritmo.dir/src/SelectionSort.cpp.obj.modmap CMakeFiles/AAlgoritmo.dir/src/MergeSort.cpp.obj.modmap CMakeFiles/AAlgoritmo.dir/src/SortedLinkedList.cpp.obj.modmap CMakeFiles/AAlgoritmo.dir/src/BinarySearchTree.cpp.obj.modmap CMakeFiles/AAlgoritmo.dir/src/benchmark_graph.cpp.obj.modmap: CXX_DYNDEP__AAlgoritmo_Debug CMakeFiles/AAlgoritmo.dir/src/main.cpp.obj.ddi CMakeFiles/AAlgoritmo.dir/src/BubbleSort.cpp.obj.ddi CMakeFiles/AAlgoritmo.dir/src/SelectionSort.cpp.obj.ddi CMakeFiles/AAlgoritmo.dir/src/MergeSort.cpp.obj.ddi CMakeFiles/AAlgoritmo.dir/src/SortedLinkedList.cpp.obj.ddi CMakeFiles/AAlgoritmo.dir/src/BinarySearchTree.cpp.obj.ddi CMakeFiles/AAlgoritmo.dir/src/benchmark_graph.cpp.obj.ddi
 
 
 # =============================================================================
@@ -93,9 +192,10 @@ build CMakeFiles/AAlgoritmo.dir/src/BinarySearchTree.cpp.obj: CXX_COMPILER__AAlg
 #############################################
 # Link the executable AAlgoritmo.exe
 
-build AAlgoritmo.exe: CXX_EXECUTABLE_LINKER__AAlgoritmo_Debug CMakeFiles/AAlgoritmo.dir/src/main.cpp.obj CMakeFiles/AAlgoritmo.dir/src/BubbleSort.cpp.obj CMakeFiles/AAlgoritmo.dir/src/SelectionSort.cpp.obj CMakeFiles/AAlgoritmo.dir/src/MergeSort.cpp.obj CMakeFiles/AAlgoritmo.dir/src/SortedLinkedList.cpp.obj CMakeFiles/AAlgoritmo.dir/src/BinarySearchTree.cpp.obj
-  FLAGS = -g
-  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+build AAlgoritmo.exe: CXX_EXECUTABLE_LINKER__AAlgoritmo_Debug CMakeFiles/AAlgoritmo.dir/src/main.cpp.obj CMakeFiles/AAlgoritmo.dir/src/BubbleSort.cpp.obj CMakeFiles/AAlgoritmo.dir/src/SelectionSort.cpp.obj CMakeFiles/AAlgoritmo.dir/src/MergeSort.cpp.obj CMakeFiles/AAlgoritmo.dir/src/SortedLinkedList.cpp.obj CMakeFiles/AAlgoritmo.dir/src/BinarySearchTree.cpp.obj CMakeFiles/AAlgoritmo.dir/src/benchmark_graph.cpp.obj
+  FLAGS = -fno-stack-protector -g
+  LINK_FLAGS = -static-libgcc -static-libstdc++
+  LINK_LIBRARIES = -lgtk-3  -lgdk-3  -lz  -lgdi32  -limm32  -lshell32  -lole32  -luuid  -lwinmm  -ldwmapi  -lsetupapi  -lcfgmgr32  -lhid  -lwinspool  -lcomctl32  -lcomdlg32  -lpangowin32-1.0  -lpangocairo-1.0  -lpango-1.0  -lharfbuzz  -latk-1.0  -lcairo-gobject  -lcairo  -lgdk_pixbuf-2.0  -lgio-2.0  -lgobject-2.0  -lglib-2.0  -lintl  -lcairo  -lgdk_pixbuf-2.0  -lgio-2.0  -lgobject-2.0  -lglib-2.0  -lintl  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\AAlgoritmo.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
@@ -148,14 +248,14 @@ build all: phony AAlgoritmo.exe
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja: RERUN_CMAKE | C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeCInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeCXXInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeCommonLanguageInclude.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeGenericSystem.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeInitializeConfigs.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeLanguageInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeRCInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeSystemSpecificInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeSystemSpecificInitialize.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/GNU-C.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/GNU-CXX.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/GNU.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU-C.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU-CXX-ABI.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU-CXX.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-Initialize.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-windres.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/WindowsPaths.cmake C$:/Users/Brene/OneDrive/Escritorio/AAlgoritmo/CMakeLists.txt CMakeCache.txt CMakeFiles/3.28.1/CMakeCCompiler.cmake CMakeFiles/3.28.1/CMakeCXXCompiler.cmake CMakeFiles/3.28.1/CMakeRCCompiler.cmake CMakeFiles/3.28.1/CMakeSystem.cmake
+build build.ninja: RERUN_CMAKE | C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeCInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeCXXInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeCommonLanguageInclude.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeGenericSystem.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeInitializeConfigs.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeLanguageInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeRCInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeSystemSpecificInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeSystemSpecificInitialize.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/GNU-C.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/GNU-CXX.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/GNU.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/FindPackageHandleStandardArgs.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/FindPackageMessage.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/FindPkgConfig.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU-C.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU-CXX-ABI.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU-CXX.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-Initialize.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-windres.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/WindowsPaths.cmake C$:/Users/Brene/OneDrive/Escritorio/AAlgoritmo/CMakeLists.txt CMakeCache.txt CMakeFiles/3.28.1/CMakeCCompiler.cmake CMakeFiles/3.28.1/CMakeCXXCompiler.cmake CMakeFiles/3.28.1/CMakeRCCompiler.cmake CMakeFiles/3.28.1/CMakeSystem.cmake
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeCInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeCXXInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeCommonLanguageInclude.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeGenericSystem.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeInitializeConfigs.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeLanguageInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeRCInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeSystemSpecificInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeSystemSpecificInitialize.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/GNU-C.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/GNU-CXX.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/GNU.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU-C.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU-CXX-ABI.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU-CXX.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-Initialize.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-windres.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/WindowsPaths.cmake C$:/Users/Brene/OneDrive/Escritorio/AAlgoritmo/CMakeLists.txt CMakeCache.txt CMakeFiles/3.28.1/CMakeCCompiler.cmake CMakeFiles/3.28.1/CMakeCXXCompiler.cmake CMakeFiles/3.28.1/CMakeRCCompiler.cmake CMakeFiles/3.28.1/CMakeSystem.cmake: phony
+build C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeCInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeCXXInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeCommonLanguageInclude.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeGenericSystem.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeInitializeConfigs.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeLanguageInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeRCInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeSystemSpecificInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeSystemSpecificInitialize.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/GNU-C.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/GNU-CXX.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/GNU.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/FindPackageHandleStandardArgs.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/FindPackageMessage.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/FindPkgConfig.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU-C.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU-CXX-ABI.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU-CXX.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-Initialize.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-windres.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/WindowsPaths.cmake C$:/Users/Brene/OneDrive/Escritorio/AAlgoritmo/CMakeLists.txt CMakeCache.txt CMakeFiles/3.28.1/CMakeCCompiler.cmake CMakeFiles/3.28.1/CMakeCXXCompiler.cmake CMakeFiles/3.28.1/CMakeRCCompiler.cmake CMakeFiles/3.28.1/CMakeSystem.cmake: phony
 
 
 #############################################

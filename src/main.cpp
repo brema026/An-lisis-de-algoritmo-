@@ -6,6 +6,7 @@
 #include "BenchMark.h"
 #include "BinarySearchTree.h"
 #include "SortedLinkedList.h"
+#include "benchmark_graph.h"
 
 // Función para generar un array ordenado (mejor caso)
 std::vector<int> generarMejorCaso(int N) {
@@ -113,12 +114,71 @@ void ejecutarPruebas(int N) {
 }
 
 int main() {
-    srand(time(NULL)); // Semilla para números aleatorios
+    srand(time(NULL));
 
-    // Realizar pruebas con diferentes tamaños de entrada (valores de N)
-    for (int N : {100, 1000, 5000, 10000}) {
-        ejecutarPruebas(N);
+    std::vector<std::vector<long long>> tiemposAlgoritmos(3); // Mejor caso, Peor caso, Promedio
+    std::vector<std::string> algoritmos = {"BubbleSort", "SelectionSort", "MergeSort", "LinkedList", "BST"};
+
+    for (int N : {100, 1000, 5000}) {
+        std::vector<long long> mejorCaso, peorCaso, casoPromedio;
+
+        std::vector<int> mejorCasoArray = generarMejorCaso(N);
+        std::vector<int> peorCasoArray = generarPeorCaso(N);
+        std::vector<int> casoPromedioArray = generarCasoPromedio(N);
+
+        // BubbleSort
+        mejorCaso.push_back(medirTiempo(BubbleSort::sort, mejorCasoArray));
+        peorCaso.push_back(medirTiempo(BubbleSort::sort, peorCasoArray));
+        casoPromedio.push_back(medirTiempo(BubbleSort::sort, casoPromedioArray));
+
+        // SelectionSort
+        mejorCaso.push_back(medirTiempo(SelectionSort::sort, mejorCasoArray));
+        peorCaso.push_back(medirTiempo(SelectionSort::sort, peorCasoArray));
+        casoPromedio.push_back(medirTiempo(SelectionSort::sort, casoPromedioArray));
+
+        // MergeSort
+        mejorCaso.push_back(medirTiempo(MergeSort::sort, mejorCasoArray));
+        peorCaso.push_back(medirTiempo(MergeSort::sort, peorCasoArray));
+        casoPromedio.push_back(medirTiempo(MergeSort::sort, casoPromedioArray));
+
+        // LinkedList Search
+        SortedLinkedList lista;
+        for (int i = 0; i < N; ++i) {
+            lista.insert(i);
+        }
+        mejorCaso.push_back(medirTiempo([&]() { lista.search(0); }));
+        peorCaso.push_back(medirTiempo([&]() { lista.search(N - 1); }));
+        casoPromedio.push_back(medirTiempo([&]() { lista.search(N / 2); }));
+
+        // BST Insert
+        BinarySearchTree bst;
+        mejorCaso.push_back(medirTiempo([&]() {
+            for (int i = 0; i < N; ++i) {
+                bst.insert(i);
+            }
+        }));
+        peorCaso.push_back(medirTiempo([&]() {
+            for (int i = N; i > 0; --i) {
+                bst.insert(i);
+            }
+        }));
+        casoPromedio.push_back(medirTiempo([&]() {
+            for (int i = 0; i < N; ++i) {
+                bst.insert(rand() % 10000);
+            }
+        }));
+
+        // Guardar los resultados de este tamaño de N
+        tiemposAlgoritmos[0] = mejorCaso;
+        tiemposAlgoritmos[1] = peorCaso;
+        tiemposAlgoritmos[2] = casoPromedio;
     }
+
+    // Mostrar gráficas para cada caso
+    BenchmarkGraph graph(tiemposAlgoritmos, algoritmos);
+    graph.mostrarGrafica(0); // 0 = Mejor caso
+    graph.mostrarGrafica(1); // 1 = Peor caso
+    graph.mostrarGrafica(2); // 2 = Caso promedio
 
     return 0;
 }

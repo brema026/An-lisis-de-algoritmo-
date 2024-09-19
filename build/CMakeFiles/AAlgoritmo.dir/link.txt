@@ -1,0 +1,3 @@
+"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\AAlgoritmo.dir/objects.a
+C:\msys64\mingw64\bin\ar.exe qc CMakeFiles\AAlgoritmo.dir/objects.a @CMakeFiles\AAlgoritmo.dir\objects1.rsp
+C:\msys64\mingw64\bin\g++.exe  -fno-stack-protector  -static-libgcc -static-libstdc++ -Wl,--whole-archive CMakeFiles\AAlgoritmo.dir/objects.a -Wl,--no-whole-archive -o AAlgoritmo.exe -Wl,--out-implib,libAAlgoritmo.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\AAlgoritmo.dir\linkLibs.rsp

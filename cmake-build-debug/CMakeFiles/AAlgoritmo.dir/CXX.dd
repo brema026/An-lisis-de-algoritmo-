@@ -1,0 +1,15 @@
+ninja_dyndep_version = 1.0
+build CMakeFiles/AAlgoritmo.dir/src/main.cpp.obj: dyndep
+
+build CMakeFiles/AAlgoritmo.dir/src/BubbleSort.cpp.obj: dyndep
+
+build CMakeFiles/AAlgoritmo.dir/src/SelectionSort.cpp.obj: dyndep
+
+build CMakeFiles/AAlgoritmo.dir/src/MergeSort.cpp.obj: dyndep
+
+build CMakeFiles/AAlgoritmo.dir/src/SortedLinkedList.cpp.obj: dyndep
+
+build CMakeFiles/AAlgoritmo.dir/src/BinarySearchTree.cpp.obj: dyndep
+
+build CMakeFiles/AAlgoritmo.dir/src/benchmark_graph.cpp.obj: dyndep
+

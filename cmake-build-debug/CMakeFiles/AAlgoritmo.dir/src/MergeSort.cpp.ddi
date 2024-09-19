@@ -1,0 +1,11 @@
+{
+"rules": [
+{
+"primary-output": "CMakeFiles/AAlgoritmo.dir/src/MergeSort.cpp.o",
+"requires": [
+]
+}
+],
+"version": 0,
+"revision": 0
+}

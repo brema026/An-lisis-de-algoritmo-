@@ -1,0 +1,11 @@
+{
+"rules": [
+{
+"primary-output": "CMakeFiles\\AAlgoritmo.dir\\src\\BinarySearchTree.cpp.obj",
+"requires": [
+]
+}
+],
+"version": 0,
+"revision": 0
+}

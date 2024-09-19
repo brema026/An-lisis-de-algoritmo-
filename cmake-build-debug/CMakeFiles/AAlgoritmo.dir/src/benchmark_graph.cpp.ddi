@@ -1,0 +1,11 @@
+{
+"rules": [
+{
+"primary-output": "CMakeFiles/AAlgoritmo.dir/src/benchmark_graph.cpp.o",
+"requires": [
+]
+}
+],
+"version": 0,
+"revision": 0
+}
